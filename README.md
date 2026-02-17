@@ -1,50 +1,88 @@
-# Welcome to your Expo app 👋
+# React Native Crypto Exchange UI
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+This project is a React Native UI implementation of a Crypto Exchange screen using Expo and TypeScript. The goal was to accurately recreate the provided design while following best practices such as reusable components, clean structure, and proper layout alignment.
 
-1. Install dependencies
+The application includes balance cards, exchange functionality UI, exchange rate display, and transaction fee details.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## APK Download
 
-   ```bash
-   npx expo start
-   ```
+You can download and install the APK file using the link below:
 
-In the output, you'll find options to open the app in a
+https://drive.google.com/file/d/188orxHHx1oGtcF0ZNXnzA9LQ3hRas8rE/view?usp=sharing
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### How to install APK
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Download the APK file from the link above
+2. Transfer it to your Android phone (if downloaded on PC)
+3. Open the APK file on your phone
+4. Allow installation from unknown sources if prompted
+5. Install and run the application
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Demo Video
+
+(Add your Google Drive video link here after recording demo)
+
+---
+
+## Features
+
+- Crypto balance cards (ETH and USD)
+- Exchange switch button
+- Exchange rate display
+- Transaction fee details
+- Clean and modern UI
+- Reusable components
+- Responsive layout
+
+---
+
+## Tech Stack
+
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- React Native Size Matters
+
+---
+
+## Project Structure
+
+app/
+index.tsx
+
+components/
+BalanceCard.tsx
+SwitchButton.tsx
+ExchangeRate.tsx
+FeeRow.tsx
+
+assets/
+images/
+
+
+---
+
+## Running the Project Locally
+
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Sekomane/React-Native-UI.git
+2. Navigate into the project folder
+cd React-Native-UI
+3. Install dependencies
+npm install
+4. Start the project
+npx expo start
+5. Run on device
+Press a to open Android emulator
+OR
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Scan QR code using Expo Go
