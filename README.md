@@ -54,17 +54,17 @@ https://drive.google.com/file/d/188orxHHx1oGtcF0ZNXnzA9LQ3hRas8rE/view?usp=shari
 
 ## Project Structure
 
-app/
-index.tsx
-
-components/
-BalanceCard.tsx
-SwitchButton.tsx
-ExchangeRate.tsx
-FeeRow.tsx
-
-assets/
-images/
+    app/
+    index.tsx
+    
+    components/
+    BalanceCard.tsx
+    SwitchButton.tsx
+    ExchangeRate.tsx
+    FeeRow.tsx
+    
+    assets/
+    images/
 
 
 ---
