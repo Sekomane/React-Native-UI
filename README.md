@@ -75,13 +75,20 @@ https://drive.google.com/file/d/188orxHHx1oGtcF0ZNXnzA9LQ3hRas8rE/view?usp=shari
 
 ```bash
 git clone https://github.com/Sekomane/React-Native-UI.git
-2. Navigate into the project folder
-cd React-Native-UI
-3. Install dependencies
-npm install
-4. Start the project
-npx expo start
-5. Run on device
+
+```
+
+### 2. Navigate into the project folder
+```cd React-Native-UI```
+
+### 3. Install dependencies
+```npm install```
+
+### 4. Start the project
+``npx expo start``
+
+### 5. Run on device
+
 Press a to open Android emulator
 OR
 
